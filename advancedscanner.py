@@ -5,6 +5,8 @@ import argparse
 import threading
 import sys
 
+# this function take two arguments
+
 
 def connScan(tgtHost, tgtPort):
     try:

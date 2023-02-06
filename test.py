@@ -1,8 +1,5 @@
-import sys
-
-argList = sys.argv
-
-ip_address = argList[1]
-port = argList[2]
-
-print(f"ip address is {ip_address} and port is {port}")
+indroduction = "hello my name is Julliet"
+new_intro = indroduction.split(" ")
+print(new_intro)
+for port in new_intro:
+    print(f"open {port}")
