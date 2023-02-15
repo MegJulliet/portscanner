@@ -3,7 +3,7 @@ scanner=nmap.PortScanner()
 scanner.scan("197.136.17.40",arguments='-sV')
 def leonSeperater(result):
     s="="
-    for i in range(0,100):
+    for i in range(0,50):
         s+="="
     print(result)   
     print(s)
